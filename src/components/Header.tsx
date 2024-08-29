@@ -1,4 +1,4 @@
-import Nav from './Nav'
+import Navigation from './Navigation'
 import "../../src/index.css"
 
 export default function Header() {
@@ -7,10 +7,9 @@ export default function Header() {
     <>
     <div>
         <h1 className='page-header'>Justin Hebenstreit</h1>
-        <Nav />
+        <Navigation />
     </div>
     
     </>
   )
 }
-
