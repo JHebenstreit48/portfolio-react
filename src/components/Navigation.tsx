@@ -1,4 +1,5 @@
 import { Link, useLocation } from 'react-router-dom';
+import '../css/navigation.css';
 
 export default function Navigation() {
   const currentTab = useLocation().pathname;
@@ -6,7 +7,7 @@ export default function Navigation() {
   return (
     <>
     <div>
-        <ul className='nav nav-tabs'>
+        <ul className='nav-css'>
 
             <li className='nav-button'>
 
@@ -15,7 +16,7 @@ export default function Navigation() {
                 className={currentTab === "/" ? "nav-link active" : 'nav-link'}
                 >
 
-                  About-Me
+                  About Me
 
                 </Link>
 

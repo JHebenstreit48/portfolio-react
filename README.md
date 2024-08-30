@@ -35,7 +35,9 @@ i.e.
 
 Also, used the following resources:
 [text](https://www.google.com/search?q=syntax+for+self-closing+HTML+tag+in+React+js&oq=syntax+for+self-closing+HTML+tag+in+React+js&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRigAdIBCTEwOTM0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8),
-[text](https://gcore.com/learning/customize-your-tsconfigjson-file-for-typescript/)
+[text](https://gcore.com/learning/customize-your-tsconfigjson-file-for-typescript/),
+[text](<https://dev.to/itswillt/explaining-reacts-types-940#:~:text=FC%20(React.,were%20introduced%20and%20widely%20adopted.>),
+[text](https://stackoverflow.com/questions/75944820/whats-the-correct-type-for-error-in-userouteerror-from-react-router-dom)
 
 
 ## Tests
