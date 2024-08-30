@@ -1,0 +1,14 @@
+.nav-css {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-button {
+    display: flex;
+    margin: 2rem;
+    border: 2px solid blue;
+    padding: 1rem;
+
+}
