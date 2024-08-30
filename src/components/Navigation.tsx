@@ -25,15 +25,28 @@ export default function Navigation() {
             <li className='nav-button'>
 
               <Link
-              to='/Contact'
-              className={currentTab === "/Contact" ? "nav-link active" : 'nav-link'}
+              to='/contact'
+              className={currentTab === "/contact" ? "nav-link active" : 'nav-link'}
               >
 
                 Contact
 
               </Link>
 
-            </li> 
+            </li>
+
+            <li className='nav-button'>
+
+              <Link
+              to='/portfolio'
+              className={currentTab === "/portfolio" ? "nav-link active" : 'nav-link'}
+              >
+
+                Portfolio
+
+              </Link>
+
+            </li>
 
 
         </ul>

@@ -6,9 +6,10 @@
     align-items: center;
 }
 .nav-button {
+    text-decoration: none;
     display: flex;
     margin: 2rem;
-    border: 2px solid blue;
+    border: 2px solid rgb(169, 30, 255);
     padding: 1rem;
 
 }
