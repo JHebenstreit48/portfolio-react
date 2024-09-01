@@ -1,0 +1,11 @@
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+}

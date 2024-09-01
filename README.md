@@ -33,6 +33,35 @@ i.e.
 <h1></h1> 
 </Navigation>
 
+Ruben also advised me to change my code from being 4 hard-coded li items to the following to make my code more DRY.
+
+i.e.
+
+const links = [
+  { title: 'Home', url: '/' },
+  { title: 'About', url: '/about' },
+  { title: 'Portfolio', url: '/portfolio' },
+  { title: 'Resume', url: '/resume' },
+]
+
+  <ul>
+    {
+      links.map((link) => (
+        <ListItem key={link.title} to={link.url} title={link.title} />
+      ))
+    }
+  </ul>
+
+  const ListItem = (props: {to: string; title: string;}) => {
+  return (
+    <li>
+      <a href={props.to}>{props.title}</a>
+    </li>
+  )
+}
+
+
+
 Also, used the following resources:
 [text](https://www.google.com/search?q=syntax+for+self-closing+HTML+tag+in+React+js&oq=syntax+for+self-closing+HTML+tag+in+React+js&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRigAdIBCTEwOTM0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8),
 [text](https://gcore.com/learning/customize-your-tsconfigjson-file-for-typescript/),
