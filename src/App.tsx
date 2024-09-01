@@ -6,10 +6,10 @@ function App() {
 
   return (
     <>
+
      <Header />
-      <main>
-        <Outlet />
-      </main>
+    <Outlet />
+    
     </>
   )
 }

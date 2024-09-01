@@ -1,12 +1,15 @@
 import Navigation from './Navigation'
 import "../../src/index.css"
+import "../css/header.css"
 
 export default function Header() {
 
   return (
     <>
-    <div>
-        <h1 className='page-header'>Justin Hebenstreit</h1>
+    <div >
+      <header className='page-header'>
+        <h1>Justin Hebenstreit</h1>
+      </header>
         <Navigation />
     </div>
     

@@ -48,6 +48,19 @@ export default function Navigation() {
 
             </li>
 
+            <li className='nav-button'>
+
+              <Link
+              to='/resume'
+              className={currentTab === "/resume" ? "nav-link active" : 'nav-link'}
+              >
+
+                Resume
+
+              </Link>
+
+            </li>
+
 
         </ul>
 
