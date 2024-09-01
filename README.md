@@ -28,7 +28,7 @@ N/A
 
 ## Contributions
 
-Ruben Dominguez helped me understand React by showing me an example of a self-closing tag. 
+Ruben Dominguez helped me understand React by showing me an example of a self-closing tag. I also had some assistance from GitHub CoPilot chat when I got stuck on something and could not figure it out with a Google search.
 i.e.
 <h1></h1> 
 </Navigation>
@@ -66,7 +66,8 @@ Also, used the following resources:
 [text](https://www.google.com/search?q=syntax+for+self-closing+HTML+tag+in+React+js&oq=syntax+for+self-closing+HTML+tag+in+React+js&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRigAdIBCTEwOTM0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8),
 [text](https://gcore.com/learning/customize-your-tsconfigjson-file-for-typescript/),
 [text](<https://dev.to/itswillt/explaining-reacts-types-940#:~:text=FC%20(React.,were%20introduced%20and%20widely%20adopted.>),
-[text](https://stackoverflow.com/questions/75944820/whats-the-correct-type-for-error-in-userouteerror-from-react-router-dom)
+[text](https://stackoverflow.com/questions/75944820/whats-the-correct-type-for-error-in-userouteerror-from-react-router-dom),
+[text](https://www.geeksforgeeks.org/reactjs-keys/),
 
 
 ## Tests

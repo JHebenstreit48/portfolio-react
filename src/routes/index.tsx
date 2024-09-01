@@ -3,6 +3,8 @@ import App from "../App";
 import ErrorPage from "../pages/Error";
 import About from "../pages/About";
 import Contact from "../pages/Contact";
+import Portfolio from "../pages/Portfolio";
+import Resume from "../pages/Resume";
 
  
  
@@ -19,6 +21,14 @@ import Contact from "../pages/Contact";
         {
           path: 'contact',
           element: <Contact />,
+        },
+        {
+          path: 'portfolio',
+          element: <Portfolio />,
+        },
+        {
+          path: 'resume',
+          element: <Resume />,
         },
       ],
     },
