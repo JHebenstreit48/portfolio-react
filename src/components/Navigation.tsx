@@ -21,10 +21,10 @@ export default function Navigation() {
 
   const navLinks = [
 
-    {pageTitle: 'about', path: '/'},
-    {pageTitle: 'contact', path: '/contact'},
-    {pageTitle: 'portfolio', path: '/portfolio'},
-    {pageTitle: 'resume', path: '/resume'}
+    {pageTitle: 'About', path: '/'},
+    {pageTitle: 'Contact', path: '/contact'},
+    {pageTitle: 'Portfolio', path: '/portfolio'},
+    {pageTitle: 'Resume', path: '/resume'}
 
   ];
 
