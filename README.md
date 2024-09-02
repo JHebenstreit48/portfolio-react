@@ -68,6 +68,9 @@ Also, used the following resources:
 [text](<https://dev.to/itswillt/explaining-reacts-types-940#:~:text=FC%20(React.,were%20introduced%20and%20widely%20adopted.>),
 [text](https://stackoverflow.com/questions/75944820/whats-the-correct-type-for-error-in-userouteerror-from-react-router-dom),
 [text](https://www.geeksforgeeks.org/reactjs-keys/),
+[text](https://www.udemy.com/course/react-for-the-rest-of-us/learn/lecture/17883930#notes),
+[text](https://www.w3schools.com/react/react_forms.asp),
+[text](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_textarea)
 
 
 ## Tests
