@@ -11,8 +11,12 @@
     text-shadow: 4px 2px 9px rgb(0, 195, 255);
     padding: 12px;
     background-image: linear-gradient(to bottom, rgb(16, 7, 97) 6%, rgb(2, 211, 211) 55%, rgb(16, 7, 97) 95%);
+    box-shadow:  0 0 11px rgb(0, 219, 248);
+    border-radius: 30px;
 }
 
 .resume:hover {
-    color: rgb(3, 182, 48);
+    color: rgb(255, 55, 0);
+    text-shadow: 3px 3px 5px rgb(6, 6, 97);
 }
+

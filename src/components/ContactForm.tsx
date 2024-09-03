@@ -14,20 +14,22 @@ export default function ContactForm() {
     const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const name = event.target.name;
         const value = event.target.value;
-        setInputs(values => ({ ...values, [name]: value }));
+        setInputs({ ...inputs, [name]: value });
     }
     const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
         event.preventDefault();
-        alert(inputs);
-    }//
+        console.log(inputs);
+    }
 
     return (
 
         <form className="formContainer" onSubmit={handleSubmit}>
 
+            
             <label className="label">Name:</label>
             <input type="text"
                 className="textField"
+                name="name"
                 value={inputs.name || ''}
                 onChange={handleChange}
             />
@@ -35,6 +37,7 @@ export default function ContactForm() {
             <label className="label">Email:</label>
             <input type="email"
                 className="textField"
+                name="email"
                 value={inputs.email}
                 onChange={handleChange}
             />
@@ -42,6 +45,7 @@ export default function ContactForm() {
             <label className="label">Message:</label>
             <textarea
                 className="messageField"
+                name="textarea"
                 value={inputs.textarea}
                 onChange={handleChange}
             />

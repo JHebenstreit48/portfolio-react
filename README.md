@@ -60,6 +60,18 @@ const links = [
   )
 }
 
+To fix some CSS issues. Bryce Berczik suggested to do the following with my header code.
+
+<div >
+  <header>
+
+    <div>
+        <h1 className='Header'>Justin Hebenstreit</h1>
+    </div>
+
+    </header>
+
+</div>
 
 
 Also, used the following resources:
