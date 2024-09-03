@@ -13,18 +13,17 @@
     text-decoration: none;
     display: flex;
     margin: 5px;
-    border-top: 2px solid rgb(169, 30, 255);
-    border-left: 2px solid rgb(169, 30, 255);
-    border-right: 2px solid rgb(169, 30, 255);
+    border: 2px solid rgb(169, 30, 255);
     padding-left: 15px;
     padding-top: 10px;
     padding-right: 15px;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
     font-size: 2rem;
 }
 
 a {
     color: rgb(8, 179, 236);
+    text-decoration: none;
 }
 
 a:hover {

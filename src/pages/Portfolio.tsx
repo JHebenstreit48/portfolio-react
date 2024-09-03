@@ -4,7 +4,7 @@ export default function Portfolio() {
 
         <>
 
-            <h1>Portfolio</h1>
+            <h1 className='pageHeader'>Portfolio</h1>
 
         </>
 
