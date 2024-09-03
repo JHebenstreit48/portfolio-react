@@ -1,4 +1,5 @@
 import { useState } from "react";
+import '../css/ContactForm.css';
 
 export default function ContactForm() {
 
@@ -10,7 +11,7 @@ export default function ContactForm() {
 
     const [inputs, setInputs] = useState<Inputs>({ name: "", email: "", textarea: "" });
 
-    const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const handleChange = (event: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const name = event.target.name;
         const value = event.target.value;
         setInputs(values => ({ ...values, [name]: value }));
@@ -22,26 +23,30 @@ export default function ContactForm() {
 
     return (
 
-        <form onSubmit={handleSubmit}>
+        <form className="formContainer" onSubmit={handleSubmit}>
 
-            <label>Name:</label>
+            <label className="label">Name:</label>
             <input type="text"
-                name="name"
+                className="textField"
                 value={inputs.name || ''}
                 onChange={handleChange}
             />
 
-            <label>Email:</label>
+            <label className="label">Email:</label>
             <input type="email"
+                className="textField"
                 value={inputs.email}
                 onChange={handleChange}
             />
 
-            <label>Message:</label>
-            <input type="textarea"
+            <label className="label">Message:</label>
+            <textarea
+                className="messageField"
                 value={inputs.textarea}
                 onChange={handleChange}
             />
+
+            <input type="submit" value="Submit" className="submitButton" />
 
 
         </form>
