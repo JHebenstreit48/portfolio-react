@@ -5,10 +5,15 @@ export default function Header() {
 
   return (
     <>
-    <div >
-        <h1 className='Header'>Justin Hebenstreit</h1>
-    </div>
-    
+      <div >
+        <header>
+          <div>
+            <h1 className='Header'>Justin Hebenstreit</h1>
+          </div>
+
+        </header>
+      </div>
+
     </>
   )
 }
