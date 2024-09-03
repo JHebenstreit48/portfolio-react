@@ -10,4 +10,5 @@
     transform: translate(-50%);
     font-size: 4rem;
     color: rgba(243, 152, 16, 0.87);
+    text-shadow: 2px 2px 5px rgb(9, 160, 206);
 }
