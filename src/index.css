@@ -1,8 +1,0 @@
-body {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  background-repeat: no-repeat;
-  height: 100vh;
-  background-image: linear-gradient(to bottom, rgb(33, 33, 34) 14%, rgb(128, 124, 119) 56%,  rgb(75, 72, 69) 80%, rgb(33, 33, 34) 93%);
-}

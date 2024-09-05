@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+import Navigation from "./Navigation";
 
 export default function PageHeader() {
     const location = useLocation();
@@ -23,9 +24,11 @@ export default function PageHeader() {
 
     return (
       <>
-      <div>
-        <h1 className='pageHeader'>{headerText}</h1>
-      </div>
+        <Navigation />
+        <div className="pageHeaderContainer">
+          <h1 className='pageHeader'>{headerText}</h1>
+        </div>
+        
       
       </>
     )
