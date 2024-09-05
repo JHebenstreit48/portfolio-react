@@ -1,0 +1,27 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30rem;
+    height: 20rem;
+    margin: 0 auto;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fc1010;
+    margin-top: 1rem;
+}
+
+

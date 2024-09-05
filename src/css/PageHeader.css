@@ -1,7 +1,14 @@
+.pageHeaderContainer {
+    margin-top: 5rem;
+}
+
 .pageHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: rgba(243, 152, 16, 0.87);
     font-size: 4rem;
-    margin-top: 20px;
-    margin-bottom: 22px;
+    margin-bottom: 7rem;
     text-shadow: 2px 2px 5px rgb(9, 160, 206);
+    margin: 0 auto;
 }
