@@ -4,7 +4,6 @@ import { router } from './routes';
 import './css/Page.css';
 
 
-
 const rootElement = document.getElementById('root');
 
   if (rootElement) {
