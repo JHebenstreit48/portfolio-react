@@ -1,10 +1,20 @@
+.row {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .card {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 30rem;
-    height: 20rem;
-    margin: 0 auto;
+    width: 29rem;
+    height: 24rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .card-img-overlay {
@@ -17,11 +27,31 @@
     padding-bottom: 0;
 }
 
-.card-title {
-    font-size: 1.5rem;
+.card-title-container {
+    display: flex;
+    width: 100%;
     font-weight: bold;
-    color: #fc1010;
-    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 191, 71);
+}
+
+.github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18.5rem;
+    margin-left: 10rem;
+    margin-right: auto;
+}
+
+.deployment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18.5rem;
+    margin-left: auto;
+    margin-right: 7rem;
 }
 
 
