@@ -37,6 +37,7 @@ Ruben also advised me to change my code from being 4 hard-coded li items to the 
 
 i.e.
 
+```
 const links = [
   { title: 'Home', url: '/' },
   { title: 'About', url: '/about' },
@@ -59,20 +60,22 @@ const links = [
     </li>
   )
 }
+```
 
 To fix some CSS issues. Bryce Berczik suggested to do the following with my header code.
 
-<div >
+```
+<div>
   <header>
 
     <div>
         <h1 className='Header'>Justin Hebenstreit</h1>
     </div>
 
-    </header>
+  </header>
 
 </div>
-
+```
 
 Also, used the following resources:
 
