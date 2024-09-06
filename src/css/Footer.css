@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 10rem;
+    color: rgb(255, 255, 255);
 }
 
 .GitHub-link {
@@ -19,11 +20,11 @@
 }
 
 .GitHub {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .LinkedIn {
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 

@@ -1,5 +1,5 @@
 body {
-    background-color: linear-gradient(to bottom, rgb(31, 31, 31) 6%, rgb(115, 115, 115)135%, rgb(151, 150, 150)) !important;
+    background: linear-gradient(to bottom, rgb(31, 31, 31) 6%, rgb(115, 115, 115)135%, rgb(151, 150, 150)) !important;
     /* background-color: rgb(76, 67, 67)!important; */
     background-repeat: no-repeat;
     background-size: cover;
