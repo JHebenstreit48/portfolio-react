@@ -6,6 +6,7 @@ function App() {
 
   return (
     <>
+    <div className="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
     <Header />
     <Outlet />
     </>

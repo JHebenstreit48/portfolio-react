@@ -1,33 +1,30 @@
-// import ReactDOM from 'react-dom'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { library } from '@fortawesome/fontawesome-svg-core'
-// import { all } from '@awesome/kit-KIT_CODE/icons'
-
 import '../css/Footer.css'
 
-// library.add(...all)
-
-// const element = <FontAwesomeIcon icon="{['kit', 'my-icon']}" />
 // This will cause this Typescript error: `Type is not assignable to type IconProp`
-
-// ReactDOM.render(element, document.body)
 
 export default function Footer() {
     return (
 
         <>
 
-        <footer className="footer">
+            <footer className="footer">
 
-            <p>Created by Justin Hebenstreit</p>
-            <div>
-            {/* <FontAwesomeIcon icon="fa-brands fa-github" /> */}
-            <a href=""></a>
-            </div>
-               
-        </footer>
+                <div className='createdBy'>
 
-    </>
+                    <p>Created by Justin Hebenstreit</p>
+
+                </div>
+
+                <div className="GitHub-link">
+                    <a className='GitHub' href="https://github.com/JHebenstreit48" target="_blank">GitHub</a>
+                </div>
+
+                <div className="LinkedIn-link">
+                    <a className='LinkedIn' href="https://www.linkedin.com/in/justin-hebenstreit-6ba22920/" target="_blank" >LinkedIn</a>
+                </div>
+
+            </footer>
+        </>
 
     );
 
