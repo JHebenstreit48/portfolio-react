@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Cards from "../components/PortfolioCards";
 import Data from "../components/PortfolioData";
+import '../css/Page.css';
 
 export default function Portfolio() {
     return (
