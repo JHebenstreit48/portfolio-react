@@ -1,6 +1,7 @@
 import '../css/PageHeader.css'
 import '../css/About.css'
 import Footer from '../components/Footer';
+import '../css/Page.css';
 
 export default function About() {
   return (
