@@ -4,3 +4,26 @@
     align-items: center;
     margin-top: 10rem;
 }
+
+.GitHub-link {
+    display: flex;
+    margin-left: 1.5rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+}
+
+.LinkedIn-link {
+    display: flex;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.GitHub {
+    color: black;
+}
+
+.LinkedIn {
+    color: black;
+}
+
+
