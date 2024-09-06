@@ -16,13 +16,13 @@ export default function Cards(project: IPortfolioCard) {
 
                     <div className="github">
 
-                        <a href={project.gitHubRepo}>GitHub</a>
+                        <a target="_blank" href={project.gitHubRepo}>GitHub</a>
 
                     </div>
 
                     <div className="deployment">
 
-                        <a href={project.deployment}>Deployment</a>
+                        <a target="_blank" href={project.deployment}>Deployment</a>
 
                     </div>
                         

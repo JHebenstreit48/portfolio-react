@@ -27,14 +27,14 @@ const portfolioData: IPortfolioCard[] = [
         name: 'Star Wars v1',
         description: 'Non-React version of Star Wars website',
         gitHubRepo: 'https://github.com/JHebenstreit48/star-wars',
-        deployment: 'https://jhebenstreit48.github.io/star-wars-test/',
+        deployment: 'https://jhebenstreit48.github.io/star-wars/',
     },
     {
-        image: '',
+        image: Images.CodingNotesV1,
         name: 'Portfolio v1',
         description: 'Non-React version of my portfolio',
         gitHubRepo: 'https://github.com/JHebenstreit48/portfolio',
-        deployment: '',
+        deployment: 'https://jhebenstreit48.github.io/coding-study-guide/',
     },
     {
         image: '',
