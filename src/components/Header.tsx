@@ -1,4 +1,3 @@
-import "../../src/index.css"
 import "../css/header.css"
 import Navigation from "./Navigation"
 
