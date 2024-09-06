@@ -96,7 +96,16 @@ Also, used the following resources:
 
 [Bootstrap Grid Layout](https://getbootstrap.com/docs/5.3/layout/grid/#example),
 
-[Bootstrap Cards](https://getbootstrap.com/docs/5.3/components/card/)
+[Bootstrap Cards](https://getbootstrap.com/docs/5.3/components/card/),
+
+[Font Awesome](https://docs.fontawesome.com/web/use-with/react/add-icons),
+
+[NPM](https://www.npmjs.com/package/font-awesome),
+
+[text](https://www.npmjs.com/package/netlify-cli),
+
+[text](https://docs.netlify.com/routing/redirects/rewrites-proxies/#history-pushstate-and-single-page-apps)
+
 
 ## Tests
 
