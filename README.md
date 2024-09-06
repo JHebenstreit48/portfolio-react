@@ -77,6 +77,19 @@ To fix some CSS issues. Bryce Berczik suggested to do the following with my head
 </div>
 ```
 
+I had a mental block with the Portfolio page and Ruben was able to help me understand it better and explain it and I took notes on his advice as well. To which I later confirmed I understood what he was describing. The following code is an example.
+
+```
+  {projects.map((project, index) => (
+        <Card
+          key={project.name + index}
+          name={project.name}
+          description={project.description}
+  ))      
+  }
+
+```
+
 Also, used the following resources:
 
 [Google](https://www.google.com/search?q=syntax+for+self-closing+HTML+tag+in+React+js&oq=syntax+for+self-closing+HTML+tag+in+React+js&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRigAdIBCTEwOTM0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8),
