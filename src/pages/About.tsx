@@ -1,8 +1,12 @@
 import '../css/PageHeader.css'
 import '../css/About.css'
+import Footer from '../components/Footer';
 
 export default function About() {
-    return (
+  return (
+
+    <>
+
       <div>
 
         <h1 className='pageHeader'>About Me</h1>
@@ -12,5 +16,14 @@ export default function About() {
         </p>
 
       </div>
-    );
+
+      <Footer />
+
+    </>
+
+
+
+
+
+  );
 }
