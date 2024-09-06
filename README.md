@@ -75,15 +75,28 @@ To fix some CSS issues. Bryce Berczik suggested to do the following with my head
 
 
 Also, used the following resources:
-[text](https://www.google.com/search?q=syntax+for+self-closing+HTML+tag+in+React+js&oq=syntax+for+self-closing+HTML+tag+in+React+js&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRigAdIBCTEwOTM0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8),
-[text](https://gcore.com/learning/customize-your-tsconfigjson-file-for-typescript/),
-[text](<https://dev.to/itswillt/explaining-reacts-types-940#:~:text=FC%20(React.,were%20introduced%20and%20widely%20adopted.>),
-[text](https://stackoverflow.com/questions/75944820/whats-the-correct-type-for-error-in-userouteerror-from-react-router-dom),
-[text](https://www.geeksforgeeks.org/reactjs-keys/),
-[text](https://www.udemy.com/course/react-for-the-rest-of-us/learn/lecture/17883930#notes),
-[text](https://www.w3schools.com/react/react_forms.asp),
-[text](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_textarea)
 
+[Google](https://www.google.com/search?q=syntax+for+self-closing+HTML+tag+in+React+js&oq=syntax+for+self-closing+HTML+tag+in+React+js&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIHCAIQIRigATIHCAMQIRigATIHCAQQIRigATIHCAUQIRigAdIBCTEwOTM0ajBqN6gCALACAA&sourceid=chrome&ie=UTF-8),
+
+[GCore](https://gcore.com/learning/customize-your-tsconfigjson-file-for-typescript/),
+
+[Dev.to](<https://dev.to/itswillt/explaining-reacts-types-940#:~:text=FC%20(React.,were%20introduced%20and%20widely%20adopted.>),
+
+[Stack Overflow](https://stackoverflow.com/questions/75944820/whats-the-correct-type-for-error-in-userouteerror-from-react-router-dom),
+
+[Geeks For Geeks](https://www.geeksforgeeks.org/reactjs-keys/),
+
+[Udemy](https://www.udemy.com/course/react-for-the-rest-of-us/learn/lecture/17883930#notes),
+
+[W3Schools](https://www.w3schools.com/react/react_forms.asp),
+
+[W3Schools](https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_textarea),
+
+[Free Code Camp](https://www.freecodecamp.org/news/how-to-use-html-to-open-link-in-new-tab/),
+
+[Bootstrap Grid Layout](https://getbootstrap.com/docs/5.3/layout/grid/#example),
+
+[Bootstrap Cards](https://getbootstrap.com/docs/5.3/components/card/)
 
 ## Tests
 
