@@ -1,3 +1,4 @@
+// import "boostrap/dist/css/bootstrap.css";
 import './index.css'
 
 import ReactDOM from 'react-dom/client';
