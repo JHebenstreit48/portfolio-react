@@ -37,11 +37,11 @@ const portfolioData: IPortfolioCard[] = [
         deployment: 'https://jhebenstreit48.github.io/coding-study-guide/',
     },
     {
-        image: '',
-        name: '',
-        description: '',
-        gitHubRepo: '',
-        deployment: '',
+        image: 'https://www.makeareadme.com/images/open-graph-logo.png?v=20181203',
+        name: 'ReadMe Generator',
+        description: 'CLI based web app that generates a ReadMe file',
+        gitHubRepo: 'https://github.com/JHebenstreit48/fun-readme-generator',
+        deployment: 'https://drive.google.com/file/d/1jk-KmZ8Rp15vUH6QkIQsLW2LZMe_VQKn/view?usp=sharing',
     },
     {
         image: '',
