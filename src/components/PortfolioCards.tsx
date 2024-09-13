@@ -7,12 +7,11 @@ export default function Cards(project: IPortfolioCard) {
             <div className='card text-bg-dark'>
 
                 <img className="card-img" src={project.image} alt={project.description} />
-                <div className='card-img-overlay'>
-                
-                <div className="card-title-container">
-                    <h5 className="card-title">{project.name}</h5>
-                </div>
-                    
+                <div className="card-img-overlay">
+
+                    <div className="card-title-container">
+                        <h5 className="card-title">{project.name}</h5>
+                    </div>
 
                     <div className="github">
 
@@ -25,9 +24,6 @@ export default function Cards(project: IPortfolioCard) {
                         <a target="_blank" href={project.deployment}>Deployment</a>
 
                     </div>
-                        
-
-                    
 
                 </div>
 
