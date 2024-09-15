@@ -25,7 +25,7 @@ export default function ContactForm() {
 
         <form className="formContainer" onSubmit={handleSubmit}>
 
-            
+
             <label className="label">Name:</label>
             <input type="text"
                 className="textField"

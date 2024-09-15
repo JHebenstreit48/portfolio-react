@@ -1,4 +1,4 @@
-import {Images } from '../assets/images/images.ts'
+import { Images } from '../assets/images/images.ts'
 export interface IPortfolioCard {
     image: string;
     name: string;
@@ -17,7 +17,7 @@ const portfolioData: IPortfolioCard[] = [
     },
     {
         image: Images.CodingNotesV2,
-        name: 'Coding Notes v2',
+        name: 'Coding Notes v2-React',
         description: 'React version of Coding Notes website',
         gitHubRepo: 'https://github.com/JHebenstreit48/portfolio-react',
         deployment: 'https://coding-notes-react-version.netlify.app/',
@@ -44,12 +44,12 @@ const portfolioData: IPortfolioCard[] = [
         deployment: 'https://drive.google.com/file/d/1jk-KmZ8Rp15vUH6QkIQsLW2LZMe_VQKn/view?usp=sharing',
     },
     {
-        image: '',
-        name: '',
-        description: '',
-        gitHubRepo: '',
-        deployment: '',
+        image: Images.Asphalt,
+        name: 'Asphalt Legends Unite v2-React',
+        description: 'React version of Asphalt Legends Unite video game site',
+        gitHubRepo: 'https://github.com/JHebenstreit48/asphalt-legends-unite-react',
+        deployment: 'https://main--asphalt-legends-unite.netlify.app/',
     },
-]; 
+];
 
 export default portfolioData

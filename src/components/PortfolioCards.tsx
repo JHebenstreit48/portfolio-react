@@ -15,13 +15,13 @@ export default function Cards(project: IPortfolioCard) {
 
                     <div className="github">
 
-                        <a target="_blank" href={project.gitHubRepo}>GitHub</a>
+                        <a target="_blank" className="fa-brands fa-github icon" href={project.gitHubRepo}></a>
 
                     </div>
 
                     <div className="deployment">
 
-                        <a target="_blank" href={project.deployment}>Deployment</a>
+                        <a target="_blank" className="" href={project.deployment}><i className="fa-solid fa-globe icon"></i></a>
 
                     </div>
 

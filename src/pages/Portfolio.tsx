@@ -24,10 +24,10 @@ export default function Portfolio() {
                         />
                     ))}
 
-                    </div>
                 </div>
+            </div>
 
-        <Footer />
+            <Footer />
 
         </>
     )

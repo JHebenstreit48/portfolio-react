@@ -5,15 +5,15 @@ import '../css/Page.css'
 export default function Contact() {
   return (
     <>
-    
-    <h1 className="pageHeader">Contact</h1>
 
-    <div>
-    <ContactForm />
-    </div>
+      <h1 className="pageHeader">Contact</h1>
 
-    <Footer />
-    
+      <div>
+        <ContactForm />
+      </div>
+
+      <Footer />
+
 
     </>
   )

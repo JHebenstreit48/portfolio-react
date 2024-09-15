@@ -16,7 +16,7 @@ export default function Footer() {
                 </div>
 
                 <div className="GitHub-link">
-                    
+
                     <a className='GitHub' href="https://github.com/JHebenstreit48" target="_blank"><i className="fa-brands fa-github"></i></a>
                 </div>
 
