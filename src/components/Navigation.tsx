@@ -22,26 +22,26 @@ export default function Navigation() {
 
   const navLinks = [
 
-    {pageTitle: 'About', path: '/'},
-    {pageTitle: 'Contact', path: '/contact'},
-    {pageTitle: 'Portfolio', path: '/portfolio'},
-    {pageTitle: 'Resume', path: '/resume'}
+    { pageTitle: 'About', path: '/' },
+    { pageTitle: 'Contact', path: '/contact' },
+    { pageTitle: 'Portfolio', path: '/portfolio' },
+    { pageTitle: 'Resume', path: '/resume' }
 
   ];
 
   return (
     <>
-    <ul className="nav-css">
-      {
-        navLinks.map((navLinks) => (
-          <ListItems 
-          key={navLinks.pageTitle}
-          to={navLinks.path}
-          pageTitle={navLinks.pageTitle}
-          isActive={currentTab === navLinks.path} />
-        ))
-      } 
-    </ul>
+      <ul className="nav-css">
+        {
+          navLinks.map((navLinks) => (
+            <ListItems
+              key={navLinks.pageTitle}
+              to={navLinks.path}
+              pageTitle={navLinks.pageTitle}
+              isActive={currentTab === navLinks.path} />
+          ))
+        }
+      </ul>
 
     </>
   );
