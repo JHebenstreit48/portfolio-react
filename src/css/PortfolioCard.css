@@ -19,12 +19,13 @@
     margin-bottom: 2rem;
     padding-left: 0;
     padding-right: 0;
+    background-image: linear-gradient(to bottom, rgb(16, 7, 97) 0%, rgb(2, 211, 211) 33%, rgb(16, 7, 97) 115%);
 }
 
 .card-img-overlay {
     display: flex;
     flex-flow: row wrap;
-    width: 100%;
+    width: 101%;
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
@@ -33,6 +34,7 @@
 
 .card-img {
     height: 315px;
+    width: 101%;
 }
 
 .card-title-container {
