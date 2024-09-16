@@ -7,9 +7,31 @@ export default function Resume() {
         <>
             <h1 className='pageHeader'>Resume</h1>
 
+            <div className='skills'>
+
+            <ul>
+
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>PostgreSQL</li>
+                <li>Git</li>
+                <li>GitHub</li>
+                <li>Responsive Design</li>
+                <li>Agile Methodologies</li>
+                <li>Problem Solving</li>
+                <li>Team Collaboration</li>
+
+            </ul>
+
+            </div>
+
             <div>
 
-                <a className="resume" href="https://docs.google.com/document/d/17zB9JbaTtIHA60biGiCz1L89W8XzP_ku7G1xCRc5rc8/edit#heading=h.5rf9wr4r3no2">Resume</a>
+                <a target="_blank" className="resume" href="/2024-Resume-Coding-Portfolio-Version.pdf" download>Resume</a>
 
             </div>
 
