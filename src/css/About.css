@@ -12,5 +12,17 @@
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 3rem;
+    margin-top: 5.5rem;
+}
+
+.profilePicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(169, 30, 255);
+    box-shadow: 0 0 10px rgb(0, 219, 248);
 }
