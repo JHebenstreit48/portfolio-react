@@ -1,6 +1,10 @@
-.row {
-    margin-left: 50px;
-    margin-right: 50px;
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 50%;
 }
 
 .card {
