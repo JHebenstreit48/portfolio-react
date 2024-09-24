@@ -1,6 +1,7 @@
 import Footer from "../components/Footer";
 import Cards from "../components/PortfolioCards";
 import Data from "../components/PortfolioData";
+import WorkInProgress from "../components/WorkInProgressAlert";
 import '../css/Page.css';
 
 export default function Portfolio() {
@@ -8,6 +9,11 @@ export default function Portfolio() {
         <>
 
             <h1 className='pageHeader'>Portfolio</h1>
+
+            <div>
+                <WorkInProgress />
+            </div>
+
 
             <div className="card-container">
                 <div className="row">
