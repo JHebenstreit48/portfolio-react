@@ -5,12 +5,13 @@
     justify-content: center;
     align-items: center;
 }
+
 .nav-button {
     text-decoration: none;
     display: flex;
     margin-top: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
     border: 2px solid rgb(169, 30, 255);
     background-image: linear-gradient(to bottom, rgb(16, 7, 97) 6%, rgb(2, 211, 211) 55%, rgb(16, 7, 97) 95%);
     padding-left: 18px;
@@ -22,8 +23,14 @@
     box-shadow:  0 0 9px rgb(0, 219, 248);
 }
 
+.isActive {
+    background-color: rgb(255, 55, 0);
+    color: pink;
+}
+
 a {
-    color: white;
+    color: rgba(243, 152, 16, 0.87);
+    text-shadow: 3px 2px 3px black;
     text-decoration: none;
 }
 
