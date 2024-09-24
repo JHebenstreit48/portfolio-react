@@ -1,34 +1,45 @@
 .footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10rem;
-    color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  padding-top: 0.6rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(41, 41, 41);
 }
 
 .GitHub-link {
-    display: flex;
-    margin-left: 1.5rem;
-    margin-right: 2rem;
-    margin-bottom: 1rem;
+  display: flex;
+  margin-left: 1.5rem;
+  margin-right: 2rem;
+  margin-bottom: 1rem;
 }
 
 .LinkedIn-link {
-    display: flex;
-    margin-right: 1rem;
-    margin-bottom: 1rem;
+  display: flex;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .GitHub {
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
 }
-
-
 
 .LinkedIn {
-    color: rgb(255, 255, 255);
-    font-size: 2rem;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
 }
 
-
+@media only screen and (max-width: 464px) {
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    color: rgb(255, 255, 255);
+  }
+  .footer p {
+    margin-top: 0.4rem;
+  }
+}
