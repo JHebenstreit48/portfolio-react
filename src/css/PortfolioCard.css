@@ -46,6 +46,10 @@
     color: rgb(255, 191, 71);
 }
 
+.card-title {
+    font-size: 1.6rem;
+}
+
 .github {
     display: flex;
     justify-content: center;
@@ -66,5 +70,47 @@
 
 .icon {
     font-size: 25px;
+}
+
+@media only screen and (max-width: 464px) {
+    .card-container {
+        width: 85%;
+    }
+
+    .card {
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .card-img {
+        height: 13.2rem;
+    }
+
+    .card-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 85%;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.6rem;
+        margin-bottom: 3.2rem;
+    }
+
+    .github {
+        margin-top: 10rem;
+        margin-left: 5rem;
+    }
+
+    .deployment {
+        margin-top: 10rem;
+        margin-right: 5rem;
+    }
+
+    .icon {
+        font-size: 20px;
+    }
 }
 

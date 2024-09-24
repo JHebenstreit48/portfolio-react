@@ -1,45 +1,75 @@
 .nav-css {
-    text-decoration: none;
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav-button {
-    text-decoration: none;
-    display: flex;
-    margin-top: 5px;
-    margin-left: 25px;
-    margin-right: 25px;
-    border: 2px solid rgb(169, 30, 255);
-    background-image: linear-gradient(to bottom, rgb(16, 7, 97) 6%, rgb(2, 211, 211) 55%, rgb(16, 7, 97) 95%);
-    padding-left: 18px;
-    padding-top: 12px;
-    padding-right: 18px;
-    padding-bottom: 12px;
-    font-size: 2rem;
-    border-radius: 30px;
-    box-shadow:  0 0 9px rgb(0, 219, 248);
+  text-decoration: none;
+  display: flex;
+  margin-top: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border: 2px solid rgb(169, 30, 255);
+  background-image: linear-gradient(
+    to bottom,
+    rgb(16, 7, 97) 6%,
+    rgb(2, 211, 211) 55%,
+    rgb(16, 7, 97) 95%
+  );
+  padding-left: 18px;
+  padding-top: 12px;
+  padding-right: 18px;
+  padding-bottom: 12px;
+  font-size: 2rem;
+  border-radius: 30px;
+  box-shadow: 0 0 9px rgb(0, 219, 248);
 }
 
 .isActive {
-    background-color: rgb(255, 55, 0);
-    color: pink;
+  background-color: rgb(255, 55, 0);
+  color: pink;
 }
 
 a {
-    color: rgba(243, 152, 16, 0.87);
-    text-shadow: 3px 2px 3px black;
-    text-decoration: none;
+  color: rgba(243, 152, 16, 0.87);
+  text-shadow: 3px 2px 3px black;
+  text-decoration: none;
 }
 
 a:hover {
-    color: rgb(255, 55, 0);
-    text-shadow: 3px 3px 5px rgb(6, 6, 97);
+  color: rgb(255, 55, 0);
+  text-shadow: 3px 3px 5px rgb(6, 6, 97);
 }
 
-
 a:active {
-    color: blue;
+  color: blue;
+}
+
+@media only screen and (max-width: 464px) {
+  .nav-css {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2.1rem;
+    width: 100%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+  }
+  .nav-button {
+    display: flex;
+    margin-top: 2rem;
+    padding: 12px 15px;
+    font-size: 2rem;
+    border-radius: 20px;
+    width: 10rem;
+  }
+  .nav-button a {
+    margin: 0 auto;
+  }
 }

@@ -10,14 +10,14 @@ export interface IPortfolioCard {
 const portfolioData: IPortfolioCard[] = [
     {
         image: Images.Asphalt,
-        name: 'Asphalt Legends Unite v1',
+        name: 'Asphalt Legends v1',
         description: 'Non-React version of Asphalt Legends Unite video game site',
         gitHubRepo: 'https://github.com/JHebenstreit48/asphalt-legends-unite',
         deployment: 'https://jhebenstreit48.github.io/asphalt-legends-unite/',
     },
     {
         image: Images.CodingNotesV2,
-        name: 'Coding Notes v2-React',
+        name: 'Coding Notes React',
         description: 'React version of Coding Notes website',
         gitHubRepo: 'https://github.com/JHebenstreit48/portfolio-react',
         deployment: 'https://coding-notes-react-version.netlify.app/',
@@ -45,7 +45,7 @@ const portfolioData: IPortfolioCard[] = [
     },
     {
         image: Images.AsphaltReact,
-        name: 'Asphalt Legends Unite v2-React',
+        name: 'Asphalt Legends v2',
         description: 'React version of Asphalt Legends Unite video game site',
         gitHubRepo: 'https://github.com/JHebenstreit48/asphalt-legends-unite-react',
         deployment: 'https://main--asphalt-legends-unite.netlify.app/',
