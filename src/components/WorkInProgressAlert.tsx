@@ -21,7 +21,7 @@ export default function WorkInProgress() {
         <svg className="bi flex-shrink-0 me-2" role="img" aria-label="Info:"><use xlinkHref="#info-fill" /></svg>
 
         <div className='message'>
-          <p>Please note that these projects are still in progress.</p>
+          <p>Please note that some of these projects are still in progress.</p>
         </div>
 
         <div>
