@@ -6,15 +6,9 @@
   font-size: 3.8rem;
   color: rgba(243, 152, 16, 0.87);
   text-shadow: 5px 3px 4px rgb(16, 17, 17);
-  height: 6rem;
-  margin-bottom: 3rem;
+  height: 8rem;
   padding-bottom: 1rem;
-  background-image: linear-gradient(
-    to bottom,
-    rgb(16, 7, 97) 6%,
-    rgb(2, 211, 211) 55%,
-    rgb(16, 7, 97) 95%
-  );
+  background-color: rgb(16, 17, 17);
 }
 
 @media only screen and (max-width: 464px) {

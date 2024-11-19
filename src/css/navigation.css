@@ -4,48 +4,39 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
-.nav-button {
+.btn-lg {
+  background-color: unset;
+  border: unset;
   text-decoration: none;
+  color: rgba(243, 152, 16, 0.87);
   display: flex;
-  margin-top: 5px;
-  margin-left: 25px;
-  margin-right: 25px;
-  border: 2px solid rgb(169, 30, 255);
-  background-image: linear-gradient(
-    to bottom,
-    rgb(16, 7, 97) 6%,
-    rgb(2, 211, 211) 55%,
-    rgb(16, 7, 97) 95%
-  );
+  margin: 0 25px;
   padding-left: 18px;
   padding-top: 12px;
   padding-right: 18px;
-  padding-bottom: 12px;
-  font-size: 2rem;
-  border-radius: 30px;
-  box-shadow: 0 0 9px rgb(0, 219, 248);
+  padding-bottom: 2px;
+  font-size: 2.2rem;
 }
 
-.isActive {
-  background-color: rgb(255, 55, 0);
-  color: pink;
+.btn-lg:hover {
+  color: rgba(243, 152, 16, 0.87);
+  text-shadow: 3px 3px 5px rgb(6, 6, 97);
+  background-color: unset;
+  font-weight: 640;
+}
+
+.active-link {
+  border-bottom: 2px solid rgba(243, 152, 16, 0.87);
+  border-radius: unset;
 }
 
 a {
   color: rgba(243, 152, 16, 0.87);
   text-shadow: 3px 2px 3px black;
   text-decoration: none;
-}
-
-a:hover {
-  color: rgb(255, 55, 0);
-  text-shadow: 3px 3px 5px rgb(6, 6, 97);
-}
-
-a:active {
-  color: blue;
 }
 
 @media only screen and (max-width: 464px) {
