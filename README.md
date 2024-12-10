@@ -1,11 +1,11 @@
 # Portfolio React Version
 ![Static Badge](https://img.shields.io/badge/License-MIT-yellow)
 
-  ## Description
+## Description
   
 A React JS version of my portfolio.
 
-  ## Table of Contents
+## Table of Contents
 
 - [Description](#description)
 - [Installation](#installation)
