@@ -5,10 +5,18 @@ import './css/Page.css';
 function App() {
 
   return (
-    <>
+    <div className='appContainer'>
+
       <Header />
+
+      <div className="contentWrapper">
+
       <Outlet />
-    </>
+
+      </div>
+      
+
+    </div>
   )
 }
 

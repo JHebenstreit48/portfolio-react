@@ -5,3 +5,13 @@ body {
     min-height: 100vh;
 }
   
+.appContainer {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+  }
+  
+  /* Content wrapper to manage padding or offsets */
+  .contentWrapper {
+    padding-top: 11rem;
+  }
