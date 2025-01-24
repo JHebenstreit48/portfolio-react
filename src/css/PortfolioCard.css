@@ -4,7 +4,14 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 50%;
+    width: 83%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -12,20 +19,18 @@
     justify-content: center;
     align-items: center;
     width: 29rem;
-    height: 24rem;
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 2rem;
+    height: 29rem;
+    margin: 2rem 8rem;
     padding-left: 0;
     padding-right: 0;
     background-image: linear-gradient(to bottom, rgb(16, 7, 97) 0%, rgb(2, 211, 211) 33%, rgb(16, 7, 97) 115%);
+    border-radius: 2rem;
 }
 
 .card-img-overlay {
     display: flex;
     flex-flow: row wrap;
-    width: 101%;
+    width: 27rem;
     padding-top: 0;
     padding-left: 0;
     padding-right: 0;
@@ -44,10 +49,12 @@
     justify-content: center;
     align-items: center;
     color: rgb(255, 191, 71);
+    padding-bottom: 1.4rem;
 }
 
 .card-title {
     font-size: 1.6rem;
+    margin: 0 auto;
 }
 
 .github {

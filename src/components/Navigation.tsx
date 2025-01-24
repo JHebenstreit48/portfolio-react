@@ -1,31 +1,36 @@
-import { Link, useLocation } from 'react-router-dom';
+import { useLocation, useNavigate } from 'react-router-dom';
 import '../css/navigation.css';
 import '../css/Page.css';
 
 interface NavigationLinks {
-  to: string;
   pageTitle: string;
 }
 
-const ListItems = (props: NavigationLinks & { isActive: boolean }) => {
+const ListItems = (props: NavigationLinks & { isActive: boolean, onClick: () => void }) => {
   return (
-    <li className={`nav-button {props.isActive ? 'active' : ''}`}>
-      <Link to={props.to}>{props.pageTitle}</Link>
-    </li>
+
+    <button
+      onClick={props.onClick}
+      type="button"
+      className={`btn btn-primary btn-lg ${props.isActive ? 'active-link' : ""}`}
+      >
+      {props.pageTitle}
+    </button>
   );
 };
 
 export default function Navigation() {
+  const navigation = useNavigate();
   const currentTab = useLocation().pathname;
 
 
 
   const navLinks = [
 
-    { pageTitle: 'About', path: '/' },
-    { pageTitle: 'Contact', path: '/contact' },
-    { pageTitle: 'Portfolio', path: '/portfolio' },
-    { pageTitle: 'Resume', path: '/resume' }
+    { pageTitle: 'About', path: () => navigation('/'), location: '/' },
+    { pageTitle: 'Contact', path: () => navigation('/contact'), location: '/contact' },
+    { pageTitle: 'Portfolio', path: () => navigation('/portfolio'), location: '/portfolio' },
+    { pageTitle: 'Resume', path: () => navigation('/resume'), location: '/resume' },
 
   ];
 
@@ -36,9 +41,9 @@ export default function Navigation() {
           navLinks.map((navLinks) => (
             <ListItems
               key={navLinks.pageTitle}
-              to={navLinks.path}
+              onClick={navLinks.path}
               pageTitle={navLinks.pageTitle}
-              isActive={currentTab === navLinks.path} />
+              isActive={currentTab === navLinks.location} />
           ))
         }
       </ul>
