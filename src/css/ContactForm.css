@@ -10,7 +10,7 @@
     background-image: linear-gradient(to bottom, rgb(16, 7, 97) 6%, rgb(2, 211, 211) 55%, rgb(16, 7, 97) 95%);
     border-radius: 30px;
     padding: 50px;
-    width: 50%;
+    width: 50rem;
     color: white;
     margin-left: auto;
     margin-right: auto;
@@ -35,6 +35,7 @@
     width: 70%;
     margin-top: 3px;
     border-radius: 5px;
+    height: 8rem;
 }
 
 .submitButton {
