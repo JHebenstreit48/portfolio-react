@@ -3,21 +3,12 @@ import Header from './components/Header';
 import './css/Page.css';
 
 function App() {
-
   return (
-    <div className='appContainer'>
-
+    <div className="contentWrapper">
       <Header />
-
-      <div className="contentWrapper">
-
       <Outlet />
-
-      </div>
-      
-
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
