@@ -1,6 +1,6 @@
-import Footer from '../components/Footer';
-import '../css/Resume.css'
-import '../css/Page.css'
+import Footer from '@/components/Footer';
+import '@/css/Resume.css'
+import '@/css/Page.css'
 
 export default function Resume() {
     return (
