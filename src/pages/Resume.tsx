@@ -1,42 +1,35 @@
+import Skills from '@/components/Skills';
 import Footer from '@/components/Footer';
-import '@/css/Resume.css'
-import '@/css/Page.css'
 
 export default function Resume() {
     return (
         <>
-            <h1 className='pageHeader'>Resume</h1>
+            <h1 className="text-4xl font-bold text-center mt-10 mb-8 text-white">Resume</h1>
 
-            <div className='skills'>
+            <div id="skills" className="scroll-mt-48 w-full mt-[50px] text-center">
 
-            <ul>
+                <h1 className="text-white font-semibold text-2xl 2xl:text-3xl mb-7">Skills</h1>
 
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
-                <li>Node.js</li>
-                <li>Express.js</li>
-                <li>PostgreSQL</li>
-                <li>Git</li>
-                <li>GitHub</li>
-                <li>Responsive Design</li>
-                <li>Agile Methodologies</li>
-                <li>Problem Solving</li>
-                <li>Team Collaboration</li>
-
-            </ul>
-
+                <div>
+                    <Skills />
+                </div>
+                
             </div>
 
-            <div>
 
-                <a target="_blank" className="resume" href="/2024-Resume-Coding-Portfolio-Version.pdf" download>Resume</a>
-
+            <div className="flex justify-center mt-8">
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition"
+                    href="/2024-Resume-Coding-Portfolio-Version.pdf"
+                    download
+                >
+                    Resume
+                </a>
             </div>
 
             <Footer />
-
         </>
     );
 }
