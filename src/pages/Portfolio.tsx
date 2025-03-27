@@ -1,8 +1,7 @@
-import Footer from "../components/Footer";
-import Cards from "../components/PortfolioCards";
-import Data from "../components/PortfolioData";
-import WorkInProgress from "../components/WorkInProgressAlert";
-import '../css/Page.css';
+import Footer from "@/components/Footer";
+import Cards from "@/components/PortfolioCards";
+import Data from "@/components/PortfolioData";
+import WorkInProgress from "@/components/WorkInProgressAlert";
 
 export default function Portfolio() {
     return (

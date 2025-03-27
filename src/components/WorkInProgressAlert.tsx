@@ -1,5 +1,4 @@
-import '../css/Footer.css'
-import '../css/WorkInProgressAlert.css'
+import '@/css/WorkInProgressAlert.css'
 
 // This will cause this Typescript error: `Type is not assignable to type IconProp`
 

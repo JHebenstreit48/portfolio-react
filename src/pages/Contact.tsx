@@ -1,7 +1,5 @@
-import ContactForm from "../components/ContactForm"
-import Footer from "../components/Footer"
-import '../css/PageHeader.css'
-import '../css/Page.css'
+import ContactForm from "@/components/ContactForm"
+import Footer from "@/components/Footer"
 export default function Contact() {
   return (
     <>

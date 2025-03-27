@@ -1,5 +1,5 @@
 import { IPortfolioCard } from "./PortfolioData";
-import '../css/PortfolioCard.css'
+import '@/css/PortfolioCard.css'
 export default function Cards(project: IPortfolioCard) {
     return (
         <>

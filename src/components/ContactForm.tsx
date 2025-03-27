@@ -1,5 +1,5 @@
 import { useState } from "react";
-import '../css/ContactForm.css';
+import '@/css/ContactForm.css';
 
 export default function ContactForm() {
 
