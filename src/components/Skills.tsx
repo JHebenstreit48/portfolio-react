@@ -16,8 +16,9 @@ import {
     SiSharp,
     SiPython,
   } from 'react-icons/si';
+  import '@/SCSS/Skills.scss';
   
-  const sections = [
+  const skillsSections = [
     {
       title: 'Web Development',
       skills: [
@@ -59,28 +60,19 @@ import {
   
   const Skills = () => {
     return (
-      <div className="space-y-16 px-6 xl:px-16 max-w-5xl mx-auto">
-        {sections.map((section) => (
-          <div key={section.title}>
-            <h2 className="text-2xl font-semibold text-white mb-6 text-center">
-              {section.title}
-            </h2>
-            <div className="flex flex-wrap justify-center gap-4">
+      <div className="skillsContainer">
+        {skillsSections.map((section) => (
+          <div key={section.title} className="skillsSection">
+            <h2 className="skillsTitle">{section.title}</h2>
+            <div className="skillsGrid">
               {section.skills.map((skill) => (
-                <div
-                  key={skill.name}
-                  className="p-4 flex flex-col items-center justify-center w-32 h-24 rounded-2xl shadow-lg bg-white/20 backdrop-blur-lg"
-                >
+                <div key={skill.name} className="skillCard">
                   {skill.icon ? (
-                    <skill.icon
-                      style={{ color: skill.color, fontSize: '20px' }}
-                    />
+                    <skill.icon className="icon" style={{ color: skill.color }} />
                   ) : (
-                    <div className="text-xl font-bold mb-1">🔧</div>
+                    <div className="icon">🔧</div>
                   )}
-                  <p className="mt-2 text-white text-sm font-semibold text-center">
-                    {skill.name}
-                  </p>
+                  <p className="label">{skill.name}</p>
                 </div>
               ))}
             </div>

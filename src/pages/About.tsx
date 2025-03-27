@@ -1,4 +1,4 @@
-import profilePicture from '@/assets/images/profilePicture.jpg';
+import ProfilePicture from '@/assets/images/profilePicture.jpg';
 import '@/css/About.css';
 
 export default function About() {
@@ -10,7 +10,7 @@ export default function About() {
 
         <h1>About Me</h1>
 
-        <img className='profilePicture' src={profilePicture} alt='Profile Picture' />
+        <img className='profilePicture' src={ProfilePicture} alt='Profile Picture' />
 
       <div className='about'>
 
