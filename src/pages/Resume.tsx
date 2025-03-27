@@ -1,35 +1,29 @@
 import Skills from '@/components/Skills';
 import Footer from '@/components/Footer';
+import '@/SCSS/Resume.scss';
 
 export default function Resume() {
   return (
-    <>
-      <h1 className="text-4xl font-bold text-center mt-10 mb-8 text-white">
-        Resume
-      </h1>
+    <div className="resume-page">
 
-      <div id="skills" className="scroll-mt-48 w-full mt-[50px] text-center">
-        <h1 className="text-white font-semibold text-2xl 2xl:text-3xl mb-7">
-          Skills
-        </h1>
-        <div>
-          <Skills />
-        </div>
+      <div id="skills">
+        <h2 className="sectionTitle">Skills</h2>
+        <Skills />
       </div>
 
-      <div className="flex justify-center mt-8">
+      <div className="resume-button-wrapper">
         <a
-          target="_blank"
-          rel="noopener noreferrer"
-          className="bg-blue-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-blue-700 transition"
           href="/2024-Resume-Coding-Portfolio-Version.pdf"
           download
+          target="_blank"
+          rel="noopener noreferrer"
+          className="resume-button"
         >
           Resume
         </a>
       </div>
 
       <Footer />
-    </>
+    </div>
   );
 }

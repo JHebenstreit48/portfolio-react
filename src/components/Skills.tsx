@@ -60,13 +60,13 @@ import {
   
   const Skills = () => {
     return (
-      <div className="skills-container">
+      <div className="skillsContainer">
         {skillsSections.map((section) => (
-          <div key={section.title} className="skills-section">
-            <h2>{section.title}</h2>
-            <div className="skills-grid">
+          <div key={section.title} className="skillsSection">
+            <h2 className="skillsTitle">{section.title}</h2>
+            <div className="skillsGrid">
               {section.skills.map((skill) => (
-                <div key={skill.name} className="skill-card">
+                <div key={skill.name} className="skillCard">
                   {skill.icon ? (
                     <skill.icon className="icon" style={{ color: skill.color }} />
                   ) : (

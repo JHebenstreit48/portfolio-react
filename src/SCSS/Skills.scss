@@ -1,4 +1,4 @@
-.skills-section {
+.skillsSection {
     margin-bottom: 4rem;
   
     h2 {
@@ -8,7 +8,7 @@
       margin-bottom: 1.5rem;
     }
   
-    .skills-grid {
+    .skillsGrid {
       display: grid;
       gap: 0.5rem;
       grid-template-columns: repeat(auto-fit, minmax(120px, max-content));
@@ -16,7 +16,7 @@
       justify-content: center;
     }
   
-    .skill-card {
+    .skillCard {
       background: rgba(255, 255, 255, 0.1);
       backdrop-filter: blur(8px);
       border-radius: 1rem;
@@ -40,6 +40,12 @@
         font-weight: 600;
         text-align: center;
       }
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    .skillsTitle {
+      margin-top: 7rem;
     }
   }
   
