@@ -59,10 +59,12 @@ import {
   
   const Skills = () => {
     return (
-      <div className="space-y-16 px-6 xl:px-16 2xl:px-96">
+      <div className="space-y-16 px-6 xl:px-16 max-w-5xl mx-auto">
         {sections.map((section) => (
           <div key={section.title}>
-            <h2 className="text-2xl font-semibold text-white mb-6 text-center">{section.title}</h2>
+            <h2 className="text-2xl font-semibold text-white mb-6 text-center">
+              {section.title}
+            </h2>
             <div className="flex flex-wrap justify-center gap-4">
               {section.skills.map((skill) => (
                 <div
@@ -70,7 +72,9 @@ import {
                   className="p-4 flex flex-col items-center justify-center w-32 h-24 rounded-2xl shadow-lg bg-white/20 backdrop-blur-lg"
                 >
                   {skill.icon ? (
-                    <skill.icon style={{ color: skill.color, fontSize: '20px' }} />
+                    <skill.icon
+                      style={{ color: skill.color, fontSize: '20px' }}
+                    />
                   ) : (
                     <div className="text-xl font-bold mb-1">🔧</div>
                   )}

@@ -1,8 +1,5 @@
-import '../css/PageHeader.css'
-import '../css/About.css'
-import Footer from '../components/Footer';
-import '../css/Page.css';
-import profilePicture from '../assets/images/profilePicture.jpg';
+import profilePicture from '@/assets/images/profilePicture.jpg';
+import '@/css/About.css';
 
 export default function About() {
   return (
@@ -11,7 +8,7 @@ export default function About() {
 
       <div>
 
-        <h1 className='pageHeader'>About Me</h1>
+        <h1>About Me</h1>
 
         <img className='profilePicture' src={profilePicture} alt='Profile Picture' />
 
@@ -25,8 +22,6 @@ export default function About() {
         
 
       </div>
-
-      <Footer />
 
     </>
 

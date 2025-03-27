@@ -1,9 +1,0 @@
-.pageHeader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgba(243, 152, 16, 0.87);
-    font-size: 4.5rem;
-    margin: 2rem;
-    text-shadow: 2px 2px 5px rgb(9, 160, 206);
-}

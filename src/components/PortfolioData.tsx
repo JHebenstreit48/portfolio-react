@@ -1,4 +1,4 @@
-import { Images } from '../assets/images/images.ts'
+import { Images } from '@/assets/images/images';
 export interface IPortfolioCard {
     image: string;
     name: string;

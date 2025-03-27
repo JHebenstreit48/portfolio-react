@@ -1,6 +1,5 @@
 import { useLocation, useNavigate } from 'react-router-dom';
-import '../css/navigation.css';
-import '../css/Page.css';
+import '@/css/navigation.css';
 
 interface NavigationLinks {
   pageTitle: string;
