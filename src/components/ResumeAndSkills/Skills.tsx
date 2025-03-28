@@ -8,6 +8,7 @@ import {
 } from 'react-icons/fa';
 import {
   SiAngular,
+  SiApollographql,
   SiCss3,
   SiGraphql,
   SiHtml5,
@@ -20,10 +21,15 @@ import {
   SiTypescript,
   SiUnity,
   SiVuedotjs,
+  SiFlutter,
+  SiDart,
+  SiKotlin,
+  SiSwift,
+  SiExpo,
 } from 'react-icons/si';
 import { DiVisualstudio } from 'react-icons/di';
 import { BiLogoVisualStudio } from 'react-icons/bi';
-import { BsTools } from "react-icons/bs";
+import { BsTools } from 'react-icons/bs';
 import '@/SCSS/Skills.scss';
 
 const skillsSections = [
@@ -40,7 +46,7 @@ const skillsSections = [
           { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
           { name: 'React', icon: FaReact, color: '#61DAFB' },
           { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
-          { name: 'MongoDB', icon: SiMongodb, color: '#47A248' }
+          { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
         ],
       },
       {
@@ -48,12 +54,11 @@ const skillsSections = [
         level: 'learning',
         skills: [
           { name: 'Angular', icon: SiAngular, color: '#DD0031' },
-          { name: 'Apollo Server', icon: null },
+          { name: 'Apollo', icon: SiApollographql, color: '#311C87' },
           { name: 'Drupal', icon: null },
           { name: 'GraphQL', icon: SiGraphql, color: '#E10098' },
           { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
-          { name: 'Vue.js', icon: SiVuedotjs, color: '#42B883' }
-
+          { name: 'Vue.js', icon: SiVuedotjs, color: '#42B883' },
         ],
       },
       {
@@ -62,6 +67,24 @@ const skillsSections = [
         skills: [
           { name: 'Insomnia', icon: SiInsomnia, color: '#4000BF' },
           { name: 'Postman', icon: null },
+        ],
+      },
+    ],
+  },
+  {
+    title: 'Mobile Development',
+    subcategories: [
+      {
+        type: 'proficiency',
+        level: 'learning',
+        skills: [
+          { name: 'React Native', icon: FaReact, color: '#61DAFB' },
+          { name: 'Flutter', icon: SiFlutter, color: '#02569B' },
+          { name: 'Dart', icon: SiDart, color: '#0175C2' },
+          { name: 'Kotlin', icon: SiKotlin, color: '#0095D5' },
+          { name: 'Swift', icon: SiSwift, color: '#FA7343' },
+          { name: 'Expo', icon: SiExpo, color: '#000020' },
+          { name: 'Android Studio', icon: null },
         ],
       },
     ],
@@ -131,7 +154,6 @@ const skillsSections = [
         type: 'proficiency',
         level: 'learning',
         skills: [
-          { name: 'Android Studio', icon: null },
           { name: 'Visual Studio', icon: DiVisualstudio, color: '#5C2D91' },
         ],
       },
@@ -168,7 +190,6 @@ const Skills = () => {
                       {subcategory.label}
                     </span>
                   )}
-
                 </h3>
                 <div className="skillsGrid">
                   {subcategory.skills.map((skill) => (
