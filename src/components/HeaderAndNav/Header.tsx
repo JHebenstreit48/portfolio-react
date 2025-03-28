@@ -1,4 +1,4 @@
-import Navigation from "@/components/Navigation";
+import Navigation from "@/components/HeaderAndNav/Navigation";
 import "@/SCSS/Header.scss";
 import "@/SCSS/Navigation.scss";
 

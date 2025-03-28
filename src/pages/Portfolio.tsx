@@ -1,7 +1,6 @@
-import Footer from "@/components/Footer";
-import Cards from "@/components/PortfolioCards";
-import Data from "@/components/PortfolioData";
-import WorkInProgress from "@/components/WorkInProgressAlert";
+import Cards from "@/components/Portfolio/PortfolioCards";
+import Data from "@/components/Portfolio/PortfolioData";
+import WorkInProgress from "@/components/Portfolio/WorkInProgressAlert";
 
 export default function Portfolio() {
     return (
@@ -31,8 +30,6 @@ export default function Portfolio() {
 
                 </div>
             </div>
-
-            <Footer />
 
         </>
     )

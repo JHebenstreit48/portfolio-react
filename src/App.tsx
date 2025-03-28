@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { Outlet } from 'react-router-dom';
-import Header from '@/components/Header';
+import Header from '@/components/HeaderAndNav/Header';
+import Footer from '@/components/Footer'; // Assuming you have a Footer component
 
 function App() {
   useEffect(() => {
@@ -15,6 +16,7 @@ function App() {
     <div className="contentWrapper">
       <Header />
       <Outlet />
+      <Footer />
     </div>
   );
 }
