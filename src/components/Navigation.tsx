@@ -29,7 +29,7 @@ export default function Navigation() {
   ];
 
   return (
-    <div className="nav-css">
+    <div className="Navigation">
       {navLinks.map((navLink) => (
         <ListItems
           key={navLink.pageTitle}

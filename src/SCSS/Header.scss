@@ -25,3 +25,18 @@
     background-color: transparent;
   }
   
+  .Header {
+    @media only screen and (max-width: 390px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 10px auto 0 auto;
+        font-size: 3rem;
+    }
+  }
+
+  .GlassWrapper {
+    @media only screen and (max-width: 390px) {
+      height: 15rem; // Adjusted for mobile view
+    }
+  }
