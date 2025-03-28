@@ -1,23 +1,16 @@
-.nav-css {
-    width: 100%;
-    height: 4rem;
-    display: flex;
+.Navigation {
+    display: grid;
     justify-content: center;
     align-items: center;
-  
+    gap: 0.2rem;
+    height: 4rem;
+    width: 100%;
     background-color: transparent;
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
   
     @media only screen and (max-width: 390px) {
-      flex-direction: column;
-      font-size: 2.1rem;
-      margin-top: 0;
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: 0;
-      height: auto;
-    }
+      grid-template-columns: repeat(2, 1fr);
   }
   
   .btn-lg {
@@ -26,9 +19,20 @@
     text-decoration: none;
     color: rgba(243, 152, 16, 0.87);
     display: flex;
-    margin: 0 25px;
+    justify-content: center;
+    align-items: center;
     font-size: 2.2rem;
     cursor: pointer;
+    padding: 0.5rem;
+    width: 100%;
+    min-width: 120px;
+    text-align: center;
+  
+    @media only screen and (max-width: 390px) {
+      font-size: 1.8rem;
+      padding: 0;
+      gap: 1rem;
+    }
   
     &:hover {
       color: rgba(243, 152, 16, 0.87);
@@ -37,30 +41,4 @@
       font-weight: 640;
     }
   }
-  
-  .active-link {
-    border-bottom: 2px solid rgba(243, 152, 16, 0.87);
-    border-radius: unset;
-  }
-  
-  a {
-    color: rgba(243, 152, 16, 0.87);
-    text-shadow: 3px 2px 3px black;
-    text-decoration: none;
-  }
-  
-  .nav-button {
-    @media only screen and (max-width: 390px) {
-      display: flex;
-      margin-top: 2rem;
-      padding: 12px 15px;
-      font-size: 2rem;
-      border-radius: 20px;
-      width: 10rem;
-  
-      a {
-        margin: 0 auto;
-      }
-    }
-  }
-  
+}
