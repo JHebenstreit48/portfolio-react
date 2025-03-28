@@ -1,8 +1,9 @@
 .Navigation {
     display: grid;
+    grid-template-columns: repeat(4, auto);
     justify-content: center;
     align-items: center;
-    gap: 0.2rem;
+    gap: 5rem;
     height: 4rem;
     width: 100%;
     background-color: transparent;
@@ -41,4 +42,13 @@
       font-weight: 640;
     }
   }
+
+  .active-link {
+    border-bottom: 2px solid rgba(243, 152, 16, 0.87);
+    border-radius: 0;
+    padding-bottom: 0.2rem; // slight space for visibility
+    font-weight: 640;
+    text-shadow: 3px 2px 3px black;
+  }
+  
 }
