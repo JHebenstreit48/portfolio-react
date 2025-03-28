@@ -1,0 +1,113 @@
+/* =============================
+   Variables
+   ============================= */
+   $highlight-color: rgb(169, 30, 255);
+   $glow-color: rgb(0, 195, 255);
+   $shadow-color: rgb(0, 219, 248);
+   $form-gradient: linear-gradient(
+     to bottom,
+     rgb(16, 7, 97) 6%,
+     rgb(2, 211, 211) 55%,
+     rgb(16, 7, 97) 95%
+   );
+   
+   $text-light: white;
+   $accent-orange: rgba(243, 152, 16, 0.87);
+   $button-bg: rgb(79, 13, 121);
+   
+   $radius-lg: 30px;
+   $radius-sm: 5px;
+   $radius-md: 8px;
+   
+   $width-form: 50rem;
+   $width-input: 70%;
+   $width-button: 23%;
+   $font-md: 18px;
+   
+   /* =============================
+      Contact Form Container
+      ============================= */
+   .formContainer {
+     margin-top: 13rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+     border: 2px solid $highlight-color;
+     text-shadow: 4px 2px 9px $glow-color;
+     box-shadow: 0px 1px 25px $shadow-color;
+     background-image: $form-gradient;
+     border-radius: $radius-lg;
+     padding: 50px;
+     width: $width-form;
+     color: $text-light;
+     margin-left: auto;
+     margin-right: auto;
+   
+     /* ========== Responsive: Small Screens ========== */
+     @media only screen and (max-width: 464px) {
+       width: 85%;
+       padding: 20px;
+     }
+   }
+   
+   /* =============================
+      Labels
+      ============================= */
+   .label {
+     text-align: left;
+     font-size: $font-md;
+     color: $accent-orange;
+     margin: 10px;
+   }
+   
+   /* =============================
+      Input Fields
+      ============================= */
+   .textField {
+     display: flex;
+     width: $width-input;
+     margin: 10px;
+     border-radius: $radius-sm;
+   
+     /* ========== Responsive ========== */
+     @media only screen and (max-width: 464px) {
+       width: 90%;
+     }
+   }
+   
+   .messageField {
+     display: flex;
+     width: $width-input;
+     margin-top: 3px;
+     border-radius: $radius-sm;
+     height: 8rem;
+   
+     /* ========== Responsive ========== */
+     @media only screen and (max-width: 464px) {
+       width: 90%;
+     }
+   }
+   
+   /* =============================
+      Submit Button
+      ============================= */
+   .submitButton {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: $width-button;
+     margin-top: 25px;
+     padding: 12px;
+     border-radius: $radius-md;
+     background-color: $button-bg;
+     color: $text-light;
+     font-size: $font-md;
+     cursor: pointer;
+   
+     /* ========== Responsive ========== */
+     @media only screen and (max-width: 464px) {
+       width: 30%;
+     }
+   }
+   
