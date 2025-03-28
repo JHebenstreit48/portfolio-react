@@ -1,7 +1,5 @@
 import '@/css/Footer.css'
 
-// This will cause this Typescript error: `Type is not assignable to type IconProp`
-
 export default function Footer() {
     return (
 

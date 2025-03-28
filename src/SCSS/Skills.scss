@@ -1,125 +1,157 @@
-.skillsContainer {
-  margin-top: 2rem;
-}
-
-.skillsSection {
-  text-align: center;
-  color: white;
-  font-size: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.skillsTitle {
-  margin: 0 auto 1rem auto;
-  width: 95%;
-  padding: 0.8rem;
-  background: linear-gradient(
-    to bottom,
-    rgba(162, 1, 243, 0.08),
-    rgba(255, 100, 0, 0.08)
-  );
-  backdrop-filter: blur(7px);
-  -webkit-backdrop-filter: blur(8px);
-  border-radius: 4rem;
-  color: rgba(255, 200, 120, 0.9);
-  font-size: 2.2rem;
-  text-align: center;
-  text-shadow: 2px 5px 7px black;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 48 28 13px rgba(0, 0, 0, 0.5);
-}
-
-.skillsSubsection {
-  margin: 2rem auto 3rem auto;
-}
-
-.subsectionTitle {
-  font-size: 1.3rem;
-  margin: 1rem 0 1.2rem;
-  text-align: center;
-  font-weight: 600;
-
-  &.fluent {
-    color: #38c172;
-  }
-
-  &.learning {
-    color: #f9c74f;
-  }
-
-  &.refreshing {
-    color: #00b4d8;
-  }
-}
-
-.toolsTitle {
-  margin: 2.5rem auto 1.5rem auto;
-  width: 80%;
-  padding: 0.6rem;
-  background: linear-gradient(
-    to bottom,
-    rgba(255, 0, 90, 0.08),
-    rgba(255, 255, 255, 0.04)
-  );
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-  border-radius: 2rem;
-  font-size: 1.9rem;
-  color: rgba(255, 180, 200, 0.92);
-  text-align: center;
-  text-shadow: 1px 3px 6px black;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
-}
-
-.toolsHeader {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-}
-
-.toolsIcon {
-  font-size: 1.6rem;
-  color: #f3a416; // warm accent orange (or your pick)
-  vertical-align: middle;
-}
-
-.skillsGrid {
-  display: grid;
-  gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(120px, max-content));
-  justify-items: center;
-  justify-content: center;
-}
-
-.skillCard {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(8px);
-  border-radius: 1rem;
-  padding: 1rem;
-  max-width: 9rem;
-  aspect-ratio: 1 / 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.icon {
-  font-size: 2rem;
-}
-
-.label {
-  margin-top: 0.5rem;
-  color: white;
-  font-size: 1rem;
-  font-weight: 600;
-  text-align: center;
-}
-
-@media only screen and (max-width: 390px) {
-  .skillsTitle {
-    margin-top: 7rem;
-  }
-}
+/* =============================
+   Variables
+   ============================= */
+   $accent-fluent: #38c172;
+   $accent-learning: #f9c74f;
+   $accent-refreshing: #00b4d8;
+   $accent-tools: rgba(255, 180, 200, 0.92);
+   $icon-orange: #f3a416;
+   
+   $skill-bg: rgba(255, 255, 255, 0.1);
+   $skill-border: rgba(255, 255, 255, 0.2);
+   $skill-blur: blur(8px);
+   
+   $gradient-purple-orange: linear-gradient(
+     to bottom,
+     rgba(162, 1, 243, 0.08),
+     rgba(255, 100, 0, 0.08)
+   );
+   $gradient-pink-white: linear-gradient(
+     to bottom,
+     rgba(255, 0, 90, 0.08),
+     rgba(255, 255, 255, 0.04)
+   );
+   
+   /* =============================
+      Skills Container
+      ============================= */
+   .skillsContainer {
+     margin-top: 2rem;
+   }
+   
+   .skillsSection {
+     text-align: center;
+     color: white;
+     font-size: 1.5rem;
+     margin-bottom: 1.5rem;
+   }
+   
+   /* =============================
+      Section Titles
+      ============================= */
+   .skillsTitle {
+     margin: 0 auto 1rem auto;
+     width: 95%;
+     padding: 0.8rem;
+     background: $gradient-purple-orange;
+     backdrop-filter: blur(7px);
+     -webkit-backdrop-filter: blur(8px);
+     border-radius: 4rem;
+     color: rgba(255, 200, 120, 0.9);
+     font-size: 2.2rem;
+     text-align: center;
+     text-shadow: 2px 5px 7px black;
+     border: 1px solid $skill-border;
+     box-shadow: 48 28 13px rgba(0, 0, 0, 0.5);
+   }
+   
+   .skillsSubsection {
+     margin: 2rem auto 3rem auto;
+   }
+   
+   .subsectionTitle {
+     font-size: 1.3rem;
+     margin: 1rem 0 1.2rem;
+     text-align: center;
+     font-weight: 600;
+   
+     &.fluent {
+       color: $accent-fluent;
+     }
+   
+     &.learning {
+       color: $accent-learning;
+     }
+   
+     &.refreshing {
+       color: $accent-refreshing;
+     }
+   }
+   
+   /* =============================
+      Tools Section
+      ============================= */
+   .toolsTitle {
+     margin: 2.5rem auto 1.5rem auto;
+     width: 80%;
+     padding: 0.6rem;
+     background: $gradient-pink-white;
+     backdrop-filter: blur(6px);
+     -webkit-backdrop-filter: blur(6px);
+     border-radius: 2rem;
+     font-size: 1.9rem;
+     color: $accent-tools;
+     text-align: center;
+     text-shadow: 1px 3px 6px black;
+     border: 1px solid rgba(255, 255, 255, 0.1);
+     box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+   }
+   
+   .toolsHeader {
+     display: inline-flex;
+     align-items: center;
+     justify-content: center;
+     gap: 0.5rem;
+   }
+   
+   .toolsIcon {
+     font-size: 1.6rem;
+     color: $icon-orange;
+     vertical-align: middle;
+   }
+   
+   /* =============================
+      Skill Grid & Cards
+      ============================= */
+   .skillsGrid {
+     display: grid;
+     gap: 2rem;
+     grid-template-columns: repeat(auto-fit, minmax(120px, max-content));
+     justify-items: center;
+     justify-content: center;
+   }
+   
+   .skillCard {
+     background: $skill-bg;
+     backdrop-filter: $skill-blur;
+     border-radius: 1rem;
+     padding: 1rem;
+     max-width: 9rem;
+     aspect-ratio: 1 / 1;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+   }
+   
+   .icon {
+     font-size: 2rem;
+   }
+   
+   .label {
+     margin-top: 0.5rem;
+     color: white;
+     font-size: 1rem;
+     font-weight: 600;
+     text-align: center;
+   }
+   
+   /* =============================
+      Responsive
+      ============================= */
+   @media only screen and (max-width: 390px) {
+     .skillsTitle {
+       margin-top: 7rem;
+     }
+   }
+   
