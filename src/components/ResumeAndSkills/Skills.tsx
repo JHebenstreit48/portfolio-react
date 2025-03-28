@@ -7,15 +7,29 @@ import {
   FaWifi,
 } from 'react-icons/fa';
 import {
-  SiHtml5,
+  SiAngular,
+  SiApollographql,
   SiCss3,
+  SiGraphql,
+  SiHtml5,
+  SiInsomnia,
   SiJavascript,
-  SiTypescript,
+  SiMongodb,
   SiPostgresql,
-  SiUnity,
-  SiSharp,
   SiPython,
+  SiSharp,
+  SiTypescript,
+  SiUnity,
+  SiVuedotjs,
+  SiFlutter,
+  SiDart,
+  SiKotlin,
+  SiSwift,
+  SiExpo,
 } from 'react-icons/si';
+import { DiVisualstudio } from 'react-icons/di';
+import { BiLogoVisualStudio } from 'react-icons/bi';
+import { BsTools } from 'react-icons/bs';
 import '@/SCSS/Skills.scss';
 
 const skillsSections = [
@@ -32,26 +46,45 @@ const skillsSections = [
           { name: 'TypeScript', icon: SiTypescript, color: '#3178C6' },
           { name: 'React', icon: FaReact, color: '#61DAFB' },
           { name: 'Node.js', icon: FaNodeJs, color: '#339933' },
+          { name: 'MongoDB', icon: SiMongodb, color: '#47A248' },
         ],
       },
       {
         type: 'proficiency',
         level: 'learning',
         skills: [
-          { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
-          { name: 'GraphQL', icon: null },
-          { name: 'Apollo Server', icon: null },
-          { name: 'Angular', icon: null },
-          { name: 'Vue.js', icon: null },
+          { name: 'Angular', icon: SiAngular, color: '#DD0031' },
+          { name: 'Apollo', icon: SiApollographql, color: '#311C87' },
           { name: 'Drupal', icon: null },
+          { name: 'GraphQL', icon: SiGraphql, color: '#E10098' },
+          { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
+          { name: 'Vue.js', icon: SiVuedotjs, color: '#42B883' },
         ],
       },
       {
         type: 'tools',
-        label: 'Web Tools',
+        label: 'Tools',
         skills: [
-          { name: 'Insomnia', icon: null },
+          { name: 'Insomnia', icon: SiInsomnia, color: '#4000BF' },
           { name: 'Postman', icon: null },
+        ],
+      },
+    ],
+  },
+  {
+    title: 'Mobile Development',
+    subcategories: [
+      {
+        type: 'proficiency',
+        level: 'learning',
+        skills: [
+          { name: 'React Native', icon: FaReact, color: '#61DAFB' },
+          { name: 'Flutter', icon: SiFlutter, color: '#02569B' },
+          { name: 'Dart', icon: SiDart, color: '#0175C2' },
+          { name: 'Kotlin', icon: SiKotlin, color: '#0095D5' },
+          { name: 'Swift', icon: SiSwift, color: '#FA7343' },
+          { name: 'Expo', icon: SiExpo, color: '#000020' },
+          { name: 'Android Studio', icon: null },
         ],
       },
     ],
@@ -65,12 +98,12 @@ const skillsSections = [
         skills: [
           { name: 'Unity', icon: SiUnity, color: '#000' },
           { name: 'C#', icon: SiSharp, color: '#9B4F96' },
-          { name: 'Python', icon: SiPython, color: '#3776AB' }, // Crossover
+          { name: 'Python', icon: SiPython, color: '#3776AB' },
         ],
       },
       {
         type: 'tools',
-        label: 'Game Tools',
+        label: 'Tools',
         skills: [
           { name: 'Unity Hub', icon: null },
           { name: 'Rider', icon: null },
@@ -96,7 +129,7 @@ const skillsSections = [
       },
       {
         type: 'tools',
-        label: 'Networking Tools',
+        label: 'Tools',
         skills: [
           { name: 'GNS3', icon: null },
           { name: 'Wireshark', icon: null },
@@ -112,7 +145,7 @@ const skillsSections = [
         level: 'fluent',
         skills: [
           { name: 'Python', icon: SiPython, color: '#3776AB' },
-          { name: 'VS Code', icon: null },
+          { name: 'VS Code', icon: BiLogoVisualStudio, color: '#007ACC' },
           { name: 'Git', icon: FaGitAlt, color: '#F05032' },
           { name: 'GitHub', icon: FaGithub, color: '#fff' },
         ],
@@ -121,8 +154,7 @@ const skillsSections = [
         type: 'proficiency',
         level: 'learning',
         skills: [
-          { name: 'Android Studio', icon: null },
-          { name: 'Visual Studio', icon: null },
+          { name: 'Visual Studio', icon: DiVisualstudio, color: '#5C2D91' },
         ],
       },
     ],
@@ -142,11 +174,22 @@ const Skills = () => {
                 key={subcategory.label || subcategory.level}
                 className="skillsSubsection"
               >
-                <h3 className={`subsectionTitle ${subcategory.level || subcategory.type}`}>
+                <h3
+                  className={
+                    subcategory.type === 'tools'
+                      ? 'toolsTitle'
+                      : `subsectionTitle ${subcategory.level}`
+                  }
+                >
                   {subcategory.type === 'proficiency' && subcategory.level === 'fluent' && '✅ Fluent'}
                   {subcategory.type === 'proficiency' && subcategory.level === 'learning' && '🧠 Learning'}
                   {subcategory.type === 'proficiency' && subcategory.level === 'refreshing' && '🔁 Refreshing'}
-                  {subcategory.type === 'tools' && `🧰 ${subcategory.label}`}
+                  {subcategory.type === 'tools' && (
+                    <span className="toolsHeader">
+                      <BsTools className="toolsIcon" />
+                      {subcategory.label}
+                    </span>
+                  )}
                 </h3>
                 <div className="skillsGrid">
                   {subcategory.skills.map((skill) => (
@@ -170,4 +213,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
