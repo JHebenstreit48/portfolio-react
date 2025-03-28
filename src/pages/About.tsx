@@ -1,5 +1,5 @@
 import ProfilePicture from '@/assets/images/profilePicture.jpg';
-import '@/css/About.css';
+import '@/SCSS/AboutMe.scss';
 
 export default function About() {
   return (
@@ -7,8 +7,6 @@ export default function About() {
     <>
 
       <div>
-
-        <h1>About Me</h1>
 
         <img className='profilePicture' src={ProfilePicture} alt='Profile Picture' />
 

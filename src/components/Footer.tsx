@@ -1,4 +1,4 @@
-import '@/css/Footer.css'
+import '@/SCSS/Footer.scss'
 
 export default function Footer() {
     return (
