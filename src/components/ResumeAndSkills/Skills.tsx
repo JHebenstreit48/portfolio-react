@@ -10,12 +10,14 @@ import {
   SiAngular,
   SiApollographql,
   SiCss3,
+  SiDrupal,
   SiGraphql,
   SiHtml5,
   SiInsomnia,
   SiJavascript,
   SiMongodb,
   SiPostgresql,
+  SiPostman,
   SiPython,
   SiSharp,
   SiTypescript,
@@ -30,6 +32,7 @@ import {
 import { DiVisualstudio } from 'react-icons/di';
 import { BiLogoVisualStudio } from 'react-icons/bi';
 import { BsTools } from 'react-icons/bs';
+import { TbBrandReactNative } from 'react-icons/tb'
 import '@/SCSS/Skills.scss';
 
 const skillsSections = [
@@ -55,7 +58,7 @@ const skillsSections = [
         skills: [
           { name: 'Angular', icon: SiAngular, color: '#DD0031' },
           { name: 'Apollo', icon: SiApollographql, color: '#311C87' },
-          { name: 'Drupal', icon: null },
+          { name: 'Drupal', icon: SiDrupal, color: '#0678BE' },
           { name: 'GraphQL', icon: SiGraphql, color: '#E10098' },
           { name: 'PostgreSQL', icon: SiPostgresql, color: '#336791' },
           { name: 'Vue.js', icon: SiVuedotjs, color: '#42B883' },
@@ -66,7 +69,7 @@ const skillsSections = [
         label: 'Tools',
         skills: [
           { name: 'Insomnia', icon: SiInsomnia, color: '#4000BF' },
-          { name: 'Postman', icon: null },
+          { name: 'Postman', icon: SiPostman, color: '#FF6C37' },
         ],
       },
     ],
@@ -78,7 +81,7 @@ const skillsSections = [
         type: 'proficiency',
         level: 'learning',
         skills: [
-          { name: 'React Native', icon: FaReact, color: '#61DAFB' },
+          { name: 'React Native', icon: TbBrandReactNative, color: '#61DAFB' },
           { name: 'Flutter', icon: SiFlutter, color: '#02569B' },
           { name: 'Dart', icon: SiDart, color: '#0175C2' },
           { name: 'Kotlin', icon: SiKotlin, color: '#0095D5' },

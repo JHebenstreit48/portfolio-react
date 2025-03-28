@@ -1,4 +1,5 @@
 import Skills from '@/components/ResumeAndSkills/Skills';
+import myResume from '@/assets/Justin-Hebenstreit-Resume-2025.pdf'
 import '@/SCSS/Resume.scss';
 
 export default function Resume() {
@@ -10,13 +11,13 @@ export default function Resume() {
         <Skills />
       </div>
 
-      <div className="resume-button-wrapper">
+      <div className="resumeButtonWrapper">
         <a
-          href="/2024-Resume-Coding-Portfolio-Version.pdf"
+          href={myResume}
           download
           target="_blank"
           rel="noopener noreferrer"
-          className="resume-button"
+          className="resumeButton"
         >
           Resume
         </a>
