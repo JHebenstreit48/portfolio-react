@@ -1,5 +1,4 @@
-import Skills from '@/components/Skills';
-import Footer from '@/components/Footer';
+import Skills from '@/components/ResumeAndSkills/Skills';
 import '@/SCSS/Resume.scss';
 
 export default function Resume() {
@@ -23,7 +22,6 @@ export default function Resume() {
         </a>
       </div>
 
-      <Footer />
     </div>
   );
 }
