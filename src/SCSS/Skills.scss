@@ -15,8 +15,8 @@
   padding: 0.8rem;
   background: linear-gradient(
     to bottom,
-    rgba(162, 1, 243, 0.08),    // top: transparent purple
-    rgba(255, 100, 0, 0.08)     // bottom: transparent orange
+    rgba(162, 1, 243, 0.08),
+    rgba(255, 100, 0, 0.08)
   );
   backdrop-filter: blur(7px);
   -webkit-backdrop-filter: blur(8px);
@@ -35,21 +35,54 @@
 
 .subsectionTitle {
   font-size: 1.3rem;
-  margin: 1rem 0 1.2rem; // top + bottom spacing
+  margin: 1rem 0 1.2rem;
   text-align: center;
   font-weight: 600;
 
   &.fluent {
-    color: #38c172; // green
+    color: #38c172;
   }
 
   &.learning {
-    color: #f9c74f; // yellow
+    color: #f9c74f;
   }
 
   &.refreshing {
-    color: #00b4d8; // blue
+    color: #00b4d8;
   }
+}
+
+.toolsTitle {
+  margin: 2.5rem auto 1.5rem auto;
+  width: 80%;
+  padding: 0.6rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 0, 90, 0.08),
+    rgba(255, 255, 255, 0.04)
+  );
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 2rem;
+  font-size: 1.9rem;
+  color: rgba(255, 180, 200, 0.92);
+  text-align: center;
+  text-shadow: 1px 3px 6px black;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.toolsHeader {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.toolsIcon {
+  font-size: 1.6rem;
+  color: #f3a416; // warm accent orange (or your pick)
+  vertical-align: middle;
 }
 
 .skillsGrid {
@@ -72,6 +105,7 @@
   align-items: center;
   justify-content: center;
 }
+
 .icon {
   font-size: 2rem;
 }
