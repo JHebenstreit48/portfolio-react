@@ -37,43 +37,46 @@
      box-shadow: 0 0 10px $box-glow;
    
      // ========== Responsive
-     @media only screen and (max-width: 464px) {
+     @media only screen and (max-width: 390px) {
        margin: 10px auto;
        width: 170px;
        height: 170px;
+       margin: 16rem auto 0 auto;
      }
    }
    
    /* =============================
       About Container
       ============================= */
-   .about {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     text-align: center;
-     color: $text-color;
-     text-shadow: $text-shadow;
-     border: 2px solid $border-highlight;
-     background-color: $deep-blue;
-     box-shadow: 0px 1px 25px $box-glow;
-     border-radius: $radius-xl;
-     width: $width-large;
-     height: $height-large;
-     margin: 1rem auto;
-     font-size: $font-lg;
-   
-     p {
-       margin-bottom: 0;
+      .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: $text-color;
+        text-shadow: $text-shadow;
+        border: 2px solid $border-highlight;
+        background-color: $deep-blue;
+        box-shadow: 0px 1px 25px $box-glow;
+        border-radius: $radius-xl;
+        width: $width-large;
+        margin: 1rem auto;
+        font-size: $font-lg;
+      
+        @media only screen and (max-width: 390px) {
+          background-image: $gradient-deepblue-cyan;
+          width: 95%;
+          margin: 3rem auto 0 auto;
+        }
+      }
+      
+     .bio {
+       margin: 20rem auto 0 auto; // Default margin for larger screens
+
+       @media only screen and (max-width: 390px) {
+        margin-top: 1.5rem;
+        font-size: 1rem;
+        padding: 0 1rem; // Add padding for smaller screens
+       }
      }
-   
-     // ========== Responsive
-     @media only screen and (max-width: 464px) {
-       background-image: $gradient-deepblue-cyan;
-       width: 78%;
-       margin-top: 4rem;
-       padding-left: 1.5rem;
-       padding-right: 1.5rem;
-     }
-   }
    
