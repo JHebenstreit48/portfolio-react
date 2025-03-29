@@ -33,7 +33,7 @@ import { DiVisualstudio } from 'react-icons/di';
 import { BiLogoVisualStudio } from 'react-icons/bi';
 import { BsTools } from 'react-icons/bs';
 import { TbBrandReactNative } from 'react-icons/tb'
-import '@/SCSS/Skills.scss';
+import '@/SCSS/Resume/Skills.scss';
 
 const skillsSections = [
   {

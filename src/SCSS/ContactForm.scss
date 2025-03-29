@@ -45,9 +45,10 @@
      margin-right: auto;
    
      /* ========== Responsive: Small Screens ========== */
-     @media only screen and (max-width: 464px) {
-       width: 85%;
+     @media only screen and (max-width: 390px) {
+       width: 95%;
        padding: 20px;
+       margin: 15rem auto 0 auto;
      }
    }
    
@@ -71,7 +72,7 @@
      border-radius: $radius-sm;
    
      /* ========== Responsive ========== */
-     @media only screen and (max-width: 464px) {
+     @media only screen and (max-width: 390px) {
        width: 90%;
      }
    }
@@ -84,7 +85,7 @@
      height: 8rem;
    
      /* ========== Responsive ========== */
-     @media only screen and (max-width: 464px) {
+     @media only screen and (max-width: 390px) {
        width: 90%;
      }
    }
@@ -106,7 +107,7 @@
      cursor: pointer;
    
      /* ========== Responsive ========== */
-     @media only screen and (max-width: 464px) {
+     @media only screen and (max-width: 390px) {
        width: 30%;
      }
    }
