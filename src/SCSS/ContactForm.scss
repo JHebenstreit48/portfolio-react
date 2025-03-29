@@ -28,7 +28,7 @@
       Contact Form Container
       ============================= */
    .formContainer {
-     margin-top: 13rem;
+     margin: 13rem auto 15.75rem auto;
      display: flex;
      justify-content: center;
      align-items: center;
@@ -41,8 +41,7 @@
      padding: 50px;
      width: $width-form;
      color: $text-light;
-     margin-left: auto;
-     margin-right: auto;
+
    
      /* ========== Responsive: Small Screens ========== */
      @media only screen and (max-width: 390px) {
