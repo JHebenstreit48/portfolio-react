@@ -20,7 +20,7 @@
    $radius-circle: 50%;
    $width-large: 70rem;
    $height-large: 40rem;
-   $font-lg: 2rem;
+   $font-lg: 1.5rem;
    
    /* =============================
       Profile Picture
@@ -59,7 +59,7 @@
         box-shadow: 0px 1px 25px $box-glow;
         border-radius: $radius-xl;
         width: $width-large;
-        margin: 1rem auto;
+        margin: 1rem auto 16.5rem auto;
         font-size: $font-lg;
       
         @media only screen and (max-width: 390px) {
@@ -70,7 +70,8 @@
       }
       
      .bio {
-       margin: 20rem auto 0 auto; // Default margin for larger screens
+       margin: 3rem;
+       padding: 2rem; // Default margin for larger screens
 
        @media only screen and (max-width: 390px) {
         margin-top: 1.5rem;
