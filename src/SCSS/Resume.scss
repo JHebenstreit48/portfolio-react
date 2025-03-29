@@ -53,5 +53,12 @@
        color: $button-text;
        text-shadow: 3px 3px 5px $button-hover-shadow;
      }
+
+     @media only screen and (max-width: 390px) {
+        width: 11rem;
+        font-size: $font-lg;
+        padding: 10px;
+        margin: 0 auto;
+     }
    }
    
