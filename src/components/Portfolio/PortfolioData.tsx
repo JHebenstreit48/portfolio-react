@@ -17,9 +17,9 @@ const portfolioData: IPortfolioCard[] = [
     },
     {
         image: Images.CodingNotesV2,
-        name: 'Coding Notes React',
+        name: 'CodeQuest',
         description: 'React version of Coding Notes website',
-        gitHubRepo: 'https://github.com/JHebenstreit48/portfolio-react',
+        gitHubRepo: 'https://github.com/JHebenstreit48/CodeQuest',
         deployment: 'https://coding-notes-react-version.netlify.app/',
     },
     {

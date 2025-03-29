@@ -28,7 +28,7 @@
 
   @media only screen and (max-width: 390px) {
     display: flex;
-    flex-direction: column;
+    flex-flow: column wrap;
     text-align: center;
     margin: 10px auto 0 auto;
     font-size: 3rem;
