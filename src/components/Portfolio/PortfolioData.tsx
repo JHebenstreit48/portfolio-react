@@ -20,7 +20,7 @@ const portfolioData: IPortfolioCard[] = [
         name: 'CodeQuest',
         description: 'React version of Coding Notes website',
         gitHubRepo: 'https://github.com/JHebenstreit48/CodeQuest',
-        deployment: 'https://coding-notes-react-version.netlify.app/',
+        deployment: 'https://web-dev-codequest.netlify.app/',
     },
     {
         image: Images.StarWars,
@@ -48,7 +48,7 @@ const portfolioData: IPortfolioCard[] = [
         name: 'Asphalt Legends v2',
         description: 'React version of Asphalt Legends Unite video game site',
         gitHubRepo: 'https://github.com/JHebenstreit48/asphalt-legends-unite-react',
-        deployment: 'https://main--asphalt-legends-unite.netlify.app/',
+        deployment: 'https://asphalt-legends-unite-react.onrender.com',
     },
 ];
 
